@@ -1,0 +1,132 @@
+/*@font-face{
+	src: url(../fonts/open-sans/OpenSans-Regular.ttf);
+	font-family: OpenSans-Regular;
+}
+@font-face{
+	src: url(../fonts/open-sans/OpenSans-Bold.ttf);
+	font-family: OpenSans-Bold;
+}
+
+h1{
+	font-family: OpenSans-Regular;  
+    font-size: 50px;
+    font-weight: 700;
+}
+/* font-family: 'Ubuntu', sans-serif;*/
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+header{
+	padding: 20px 0;
+	border: 1px solid;
+}
+.container{
+	margin: 0 auto;
+	width: 90%;
+	border: 1px solid red;
+	overflow: hidden;
+}
+.logo{
+	margin-top: 18px;
+	width: 12%;
+	border: 1px solid black;
+	float: left;
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    width: 60%;
+	border: 1px solid black;
+	float: right;
+}
+.menu ul{
+
+}
+.menu ul li{
+     list-style: none;
+     float: left;
+}
+.menu ul li a{
+    margin: 0 60px;
+    padding: 4px 2px 3px;
+    display: inline-block;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    transition: .3s;
+}
+.menu ul li: last-child a{
+	padding-right: 0;
+}
+ .menu ul li a:  hover{
+ 	border-bottom: 1px solid #626262;
+ }
+ .banner{
+
+ }
+ .b_img{
+
+ }
+ b_img img{
+ 	width: 100%;
+ }
+ .perfect{
+ 	padding: 100px 0;
+ }
+ .container2{
+ 	margin: 0 auto;
+ 	width: 80%;
+ 	border: 1px solid;
+ }
+ p.content{
+
+ }
+ .c_light{
+     margin: 0;
+     font-family: 'Ubuntu', sans-serif;
+     font-size: 14px;
+     font-weight: 300;
+     color: #b4ad9e;
+     text-transform: uppercase;
+ }
+ .c_title{
+ 	margin: 20px 0 30px;
+ 	font-size: 30px;
+ 	font-weight: 400;
+ }
+
+ .c_text{
+ 	line-height: 25px;
+ }
+.mb_40{
+	margin-bottom: 40px;
+.blog{
+    padding-bottom: 100px;
+}
+.b_wrapper{
+    overflow: hidden;
+}
+.single_b{
+	margin-bottom: 60px;
+   width: 47%;
+   border: 1px solid red;
+   float: left;
+   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.single_b: nth child(even) {
+	margin-left: 6%;
+};
+.s_img{
+    margin-bottom: 25px;
+}
+.s_img img{
+     width: 100%;
+}
